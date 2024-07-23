@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: monospace;
 }
 
 * {
@@ -22,7 +22,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: black;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -30,7 +30,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: black;
 }
 
 /* Style the container/contact section */
@@ -42,7 +42,7 @@ input[type=submit]:hover {
 
 /* Create two columns that float next to eachother */
 .column {
-  float: left;
+  
   width: 50%;
   margin-top: 6px;
   padding: 20px;
@@ -65,18 +65,19 @@ input[type=submit]:hover {
 </style>
 </head>
 <body>
+  <center>
 
-<h2>Responsive Contact Section</h2>
-<p>Resize the browser window to see the effect.</p>
+<h2>Please fill the form to contact me</h2>
+
 
 <div class="container">
   <div style="text-align:center">
-    <h2>Contact Us</h2>
-    <p>Swing by for a cup of coffee, or leave us a message:</p>
+    
+  
   </div>
   <div class="row">
     <div class="column">
-      <img src="/w3images/map.jpg" style="width:100%">
+      <img src="tamil-samayam.webp" alt="hitman" style="border-radius: 50%;">
     </div>
     <div class="column">
       <form action="/action_page.php">
@@ -84,11 +85,11 @@ input[type=submit]:hover {
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
         <label for="lname">Last Name</label>
         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        <label for="country">Country</label>
+        <label for="country">STATE</label>
         <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
+          <option value="australia">KARNATAKA</option>
+          <option value="canada">MAHARASHTRA</option>
+          <option value="usa">GOA</option>
         </select>
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
@@ -97,6 +98,6 @@ input[type=submit]:hover {
     </div>
   </div>
 </div>
-
+</center>
 </body>
 </html>
